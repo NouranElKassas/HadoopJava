@@ -58,6 +58,7 @@ you will find in this file a tag <configurations> setup your local hadoop cluste
     <value>/home/user/hadoop-2.7.2/hadoop2_data/hdfs/datanode</value>
     </property>
 ```
+
 save and close the file
 
 open yarn-site.xml
@@ -75,6 +76,7 @@ you will find in this file a tag <configurations> setup your local hadoop cluste
     <value>org.apache.hadoop.mapred.ShuffleHandler</value>
     </property>
 ```
+
 save and close the file
 
 copy map reduce site template to be in map reduce site
@@ -91,9 +93,10 @@ you will find in this file a tag <configurations> setup your local hadoop cluste
     <value>yarn</value>
     </property>
 ```
-    save and close the file
+save and close the file
 
 # setup enviroment variables
+
 open hadoop env file
 ```gedit hadoop-env.sh```
 
@@ -105,7 +108,7 @@ save and close the file
 open .bashrc
 ``` gedit bashrc ```
 
-    add those parameters in the file
+add those parameters in the file
 ```
     export HADOOP_HOME=/home/usr/hadoop-2.7.2
     export HADOOP_MAPPER_HOME=/home/usr/hadoop-2.7.2
@@ -127,7 +130,8 @@ open .bashrc
 ```
 save and close the file
 
-```cd ..
+```
+cd ..
 cd hadoop-2.7.2
 ```
 
@@ -135,7 +139,6 @@ formate name node
 ```bin/hadoop namenode -format```
 
 start hadoop daemons
-
 ```cd sbin```
 
 start the data file system
