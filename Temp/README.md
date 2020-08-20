@@ -1,4 +1,4 @@
-# Weather Measurment classifier
+# Weather Measurment Classifier
 
 This is a classifier use to classify the weathe if it's "hot weather" or "cold weather"
 
