@@ -1,3 +1,7 @@
+# Weather Measurment classifier
+
+This is a classifier use to classify the weathe if it's "hot weather" or "cold weather"
+
 get data on 2020 from the dataset ftp://ftp.ncdc.noaa.gov/pub/data/uscrn/products/daily01
 
 ```
