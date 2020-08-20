@@ -1,7 +1,4 @@
-# Hadoop Java
-# Hadoop Setup
-
-# Enviroment
+# Hadoop Setup Enviroment
 Before we start the locations and paths found in this file are my local file location
 please replace replace those locations with your file locations
 Moreover, I used Linux OS. 
