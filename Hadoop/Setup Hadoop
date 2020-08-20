@@ -3,7 +3,7 @@
 #Moreover, I used Linux OS. 
 
 #Download the required version
-wget https://downloads.apache.org/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
+wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
 
 #extract the file
 tar -xvf hadoop-2.7.2.tar.gz
