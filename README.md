@@ -5,6 +5,9 @@ Moreover, I used Linux OS.
 
 
 # Let's get started
+
+Open Terminal
+
 Download the required version
 ```wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz```
 
@@ -110,6 +113,7 @@ open .bashrc
 
 add those parameters in the file
 ```
+    #set Hadoop paths
     export HADOOP_HOME=/home/usr/hadoop-2.7.2
     export HADOOP_MAPPER_HOME=/home/usr/hadoop-2.7.2
     export HADOOP_CONF_DIR=/home/usr/hadoop-2.7.2/etc/hadoop
@@ -120,11 +124,11 @@ add those parameters in the file
     export HADOOP_COMMON_LIB_NATIVE_HOME=$HADOOP_HOME/lib/native
     export HADOOP_OPTS="-Djava.librarypath=$HADOOP_HOME/lib"
 
-    set Java Home
+    #set Java Home
     export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
     export PATH=$PATH:/usr/lib/jvm/java-7-openjdk-amd64
 
-    set Hadoop bin/ directory to path
+    #set Hadoop bin/ directory to path
     export PATH=$PATH:/home/usr/hadoop-2.7.2
     export HADOOP_PID_DIR=/home/user/hadoop-2.7.2/hadoop2_data/hdfs/pid
 ```
